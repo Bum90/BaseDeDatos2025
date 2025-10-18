@@ -22,7 +22,7 @@ INSERT INTO autos (patente,marca,modelo,precio)
 VALUES ('BVF543','Fiat 128','1975','20000');
 
 SELECT * FROM autos
-WHERE modedelo=1990;
+WHERE modelo=1990;
 
 DROP TABLE autos;
 
@@ -58,5 +58,5 @@ VALUES ('2433344','Garcia','Luis','Avellaneda 1454','4558877');
 INSERT INTO clientes (documento,apellido,nombre,domicilio,telefono)
 VALUES ('2533344','Juarez','Ana','Urquiza 444','4789900');
 
-SELECT * FROM
+SELECT * FROM clientes
 WHERE apellido='Perez';
