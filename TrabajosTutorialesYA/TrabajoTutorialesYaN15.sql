@@ -58,5 +58,5 @@ VALUES ('2433344','Garcia','Luis','Avellaneda 1454','4558877');
 INSERT INTO clientes (documento,apellido,nombre,domicilio,telefono)
 VALUES ('2533344','Juarez','Ana','Urquiza 444','4789900');
 
-SELECT * FROM
+SELECT * FROM clientes
 WHERE apellido='Perez';
